@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BytesMeter_Example' do
+  pod 'BytesMeter', :path => '../'
+
+  target 'BytesMeter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
