@@ -1,0 +1,6 @@
+framework module BytesMeter {
+  umbrella header "BytesMeter-umbrella.h"
+
+  export *
+  module * { export * }
+}
