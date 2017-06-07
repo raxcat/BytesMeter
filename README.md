@@ -5,6 +5,14 @@
 [![License](https://img.shields.io/cocoapods/l/BytesMeter.svg?style=flat)](http://cocoapods.org/pods/BytesMeter)
 [![Platform](https://img.shields.io/cocoapods/p/BytesMeter.svg?style=flat)](http://cocoapods.org/pods/BytesMeter)
 
+## Version
+
+- 0.1.1
+- Add @objc for class
+
+- 0.1.0
+first release
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
