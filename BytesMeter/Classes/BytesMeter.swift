@@ -14,6 +14,9 @@ public class BytesMeter : NSObject {
         }
     }
     
+    /**
+     Add bttes count.
+     */
     public func addBytesCount(_ count:UInt){
         bytesCount += count
     }
@@ -25,11 +28,20 @@ public class BytesMeter : NSObject {
     }
     private dynamic var stopTime: CFAbsoluteTime = 0
     
+    
+    /**
+     Reset/Start counting. All values will be set to zero.
+     */
     public func reset(){
         startTime = CFAbsoluteTimeGetCurrent()
         stopTime = startTime;
     }
     
+    /**
+     Return `speed` in Double.
+     
+     - Note : Supports KVO.
+     */
     public dynamic var speed: Double {
         get
         {
