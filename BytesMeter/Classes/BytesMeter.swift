@@ -6,7 +6,7 @@
     import Foundation
 #endif
 
-public class BytesMeter : NSObject {
+@objc public class BytesMeter : NSObject {
     
     dynamic var bytesCount: UInt = 0 {
         didSet{
@@ -17,7 +17,7 @@ public class BytesMeter : NSObject {
     /**
      Add bttes count.
      */
-    public func addBytesCount(_ count:UInt){
+    @objc public func addBytesCount(_ count:UInt){
         bytesCount += count
     }
     
@@ -32,7 +32,7 @@ public class BytesMeter : NSObject {
     /**
      Reset/Start counting. All values will be set to zero.
      */
-    public func reset(){
+    @objc public func reset(){
         startTime = CFAbsoluteTimeGetCurrent()
         stopTime = startTime;
     }
@@ -42,7 +42,7 @@ public class BytesMeter : NSObject {
      
      - Note : Supports KVO.
      */
-    public dynamic var speed: Double {
+    @objc public dynamic var speed: Double {
         get
         {
             return Double(bytesCount)/(stopTime - startTime)
