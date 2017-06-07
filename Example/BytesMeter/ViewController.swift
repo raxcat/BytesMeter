@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         
 
         for i in 1...100 {
-            if i%10 == 0 {
+            if i%10 == 0 { //reset every 10 times. Just an example
                 self.secretary.reset()
             }
             sleep(1)
@@ -33,7 +33,7 @@ class ViewController: UIViewController {
     
     func loopTest(){
         let randomNum:UInt = UInt(arc4random_uniform(100000))+1 // range is 0 to 99
-        print("generate : \(randomNum)")
+        print("generate : \(randomNum)")    //simulate generating byte count
         self.secretary.addBytesCount(randomNum)
     }
     
