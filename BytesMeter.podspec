@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BytesMeter'
-  s.version          = '0.1.1'
+  s.version          = '1.0.0'
   s.summary          = 'Help to meter network speed.'
 
 # This description is used to generate tags and improve search results.
@@ -30,6 +30,7 @@ Help to meter network speed. Small tool.
 
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.10'
+  s.swift_version = '5.0'
 
   s.source_files = 'BytesMeter/Classes/**/*'
   

@@ -1,5 +1,5 @@
 PODS:
-  - BytesMeter (0.1.0)
+  - BytesMeter (0.1.1)
 
 DEPENDENCIES:
   - BytesMeter (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BytesMeter: e92110bd37072b19534ac06f4bc02fbd0c715d81
+  BytesMeter: 6b7e0a7a00f8a9835fb3c40493f0784b3e41df25
 
 PODFILE CHECKSUM: 84fef5540e4377168fb4260911b15ba52ae2e5d0
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.6.0.beta.2

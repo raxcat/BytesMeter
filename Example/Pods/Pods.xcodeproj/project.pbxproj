@@ -7,103 +7,113 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0455AEEC3CF1F23EFE31800311C14662 /* BytesMeter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BEF561D888B1B387BF615387424C3F /* BytesMeter-dummy.m */; };
-		049E70F99DBA1040024AC567459341CF /* Pods-BytesMeter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FBCCD12989B5682BD8EA8F4593440C5 /* Pods-BytesMeter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54CC110E864BC3995BEDAAFA514CB509 /* Pods-BytesMeter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5EC903AE544C7F48A83498F94A2914 /* Pods-BytesMeter_Tests-dummy.m */; };
-		5FAA7AF9EAFF78E928EC02222034EDEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7593CAB399F36D4E50BA563BBD828EC3 /* Pods-BytesMeter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83144B12CF67A76D7417E00684DB0D80 /* Pods-BytesMeter_Example-dummy.m */; };
-		99847D39E7CCC4D3D69988D2F07229AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		9EE522D78D3A0284AA7EC079CC97813A /* Pods-BytesMeter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB478A1E1A8BCDDFDE1CBC04AD3B3430 /* Pods-BytesMeter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9DE66487E418C18D88E303DE2EB592C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		D34C81521EE159D900FEA471 /* BytesMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34C81511EE159D900FEA471 /* BytesMeter.swift */; };
-		FBBC3D014966C85DE12B634F4EA90EF9 /* BytesMeter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 364C445898C06A02EC87DB1FA84D2CDA /* BytesMeter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05AF70FC2AACC6ADF07C38CA209AA75B /* BytesMeter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64A7CC87DA0490B049463B51E0414B1B /* BytesMeter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06AA429DDE44EF597D65CAC8B2C7E271 /* Pods-BytesMeter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBC20509171DE94800148AF2FDDB84C /* Pods-BytesMeter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CEB2275D836496BC8E216E599E18AAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		1AFB79005EB3BEAE87C1CD9AD702AEA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		7CA24F87F4BB49D72AA6EC3059794918 /* Pods-BytesMeter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D15DCA16EF2B60EDFAA87F6136A5B0BA /* Pods-BytesMeter_Tests-dummy.m */; };
+		A81BBB2C0D3EF18D3AE32D051F8A263E /* BytesMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1812F846030AC915247A61260236AF80 /* BytesMeter.swift */; };
+		C2150F442C7E8902FA69DB438B187F6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		C8420548396A65EAD47E98F3CCBE1243 /* BytesMeter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F11ABD777FABDB6D121874E733AC6CE /* BytesMeter-dummy.m */; };
+		CB7D8D4F94126AEE297740685F35AC3A /* Pods-BytesMeter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E39E247691BBBDA298AFABF6679A88D /* Pods-BytesMeter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0FA170A27E993BD4479747C7BDF9B9E /* Pods-BytesMeter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A9FBE7C639EBBEE892F2A3DB21A202 /* Pods-BytesMeter_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7247A2E521905950E9619F0F33A90A15 /* PBXContainerItemProxy */ = {
+		72666826A789FA97EE2B3B666FB43692 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CBD1BA5E2F05CD978D88E7C7AFFA51C9;
+			remoteGlobalIDString = 43EAF0D359239B9AFB5D96C686C8EE53;
+			remoteInfo = "Pods-BytesMeter_Example";
+		};
+		D96EC20055298F5352E7769783ADC2C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 469148CAE1D59CEC01E0CC8F3F5A63E2;
 			remoteInfo = BytesMeter;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DCD91C09DC242F19FECD397D812627C /* Pods-BytesMeter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BytesMeter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0F4F72E0C1E695B9F9448C94F19D5BEE /* Pods-BytesMeter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BytesMeter_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1328F6B8506EC2C9E8AEBAFDFC9445D8 /* BytesMeter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BytesMeter.xcconfig; sourceTree = "<group>"; };
-		1B40BFD2CE35285475F1E030755BEC30 /* Pods-BytesMeter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BytesMeter_Example.modulemap"; sourceTree = "<group>"; };
-		240ED6195C831F2B16CF08102CFCCD39 /* BytesMeter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BytesMeter.modulemap; sourceTree = "<group>"; };
-		26179B5D15C66A65BCD325064C45F5E2 /* Pods-BytesMeter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BytesMeter_Tests.modulemap"; sourceTree = "<group>"; };
-		364C445898C06A02EC87DB1FA84D2CDA /* BytesMeter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BytesMeter-umbrella.h"; sourceTree = "<group>"; };
-		4B880AD13319D0FD8D39A41BD1CA8C52 /* Pods-BytesMeter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BytesMeter_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4BE3EEF957D0F678C02311A18EE1ECA2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		51E5C90254B2ADFC2E5C52D25AC394A9 /* Pods-BytesMeter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BytesMeter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5452912A37E24FE2965412B613711A97 /* Pods-BytesMeter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BytesMeter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5E103F73705619B8D1CB3B36328727DF /* Pods-BytesMeter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BytesMeter_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6CA70C788589B9FDC16E1B66B5A5135E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6FB9F1E0D1B095B77DE5D05FD79C5FF3 /* Pods-BytesMeter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BytesMeter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		74730672D1D5562B699A546668A49235 /* Pods-BytesMeter_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BytesMeter_Tests-resources.sh"; sourceTree = "<group>"; };
-		770DF4722AA29223CA2C894DE6C8FFA9 /* Pods_BytesMeter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BytesMeter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		79EB9108DECA4636FB73852441E196E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83144B12CF67A76D7417E00684DB0D80 /* Pods-BytesMeter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BytesMeter_Example-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		995F27595719797BD02F183600E1E7AD /* BytesMeter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BytesMeter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B5EC903AE544C7F48A83498F94A2914 /* Pods-BytesMeter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BytesMeter_Tests-dummy.m"; sourceTree = "<group>"; };
-		9FBCCD12989B5682BD8EA8F4593440C5 /* Pods-BytesMeter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BytesMeter_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A015EBDB15893F2C65C1937FF044D1D1 /* Pods_BytesMeter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BytesMeter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8BEF561D888B1B387BF615387424C3F /* BytesMeter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BytesMeter-dummy.m"; sourceTree = "<group>"; };
-		BB72E8E3365E2E839929139C4C9AFAA6 /* Pods-BytesMeter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BytesMeter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		BDD96126114FEFFCCA6BF40B5FB39BD5 /* Pods-BytesMeter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BytesMeter_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C45983768FFD63D89B1F0E238F42978B /* Pods-BytesMeter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BytesMeter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C79C9CCDD3F8C57BB4C8E3032B5BF852 /* BytesMeter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BytesMeter-prefix.pch"; sourceTree = "<group>"; };
-		D34C81511EE159D900FEA471 /* BytesMeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BytesMeter.swift; sourceTree = "<group>"; };
-		F13AD38D869100685A670B7D28F4B596 /* Pods-BytesMeter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BytesMeter_Example-resources.sh"; sourceTree = "<group>"; };
-		FB478A1E1A8BCDDFDE1CBC04AD3B3430 /* Pods-BytesMeter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BytesMeter_Example-umbrella.h"; sourceTree = "<group>"; };
+		00CBD40B4C52DAC89DF8E4E4B64686FD /* Pods-BytesMeter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BytesMeter_Example.modulemap"; sourceTree = "<group>"; };
+		0130F0B42C0766E88C1118B999AAA5DB /* BytesMeter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BytesMeter.modulemap; sourceTree = "<group>"; };
+		02EA50BE6704AA59A2832B6C9983EFE9 /* BytesMeter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BytesMeter.xcconfig; sourceTree = "<group>"; };
+		0DBC20509171DE94800148AF2FDDB84C /* Pods-BytesMeter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BytesMeter_Example-umbrella.h"; sourceTree = "<group>"; };
+		0F11ABD777FABDB6D121874E733AC6CE /* BytesMeter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BytesMeter-dummy.m"; sourceTree = "<group>"; };
+		102259DD1E1AFF4A27D50B8770274A3C /* Pods-BytesMeter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BytesMeter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1812F846030AC915247A61260236AF80 /* BytesMeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BytesMeter.swift; path = BytesMeter/Classes/BytesMeter.swift; sourceTree = "<group>"; };
+		1E39E247691BBBDA298AFABF6679A88D /* Pods-BytesMeter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BytesMeter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		38606FB786BA448609B88C729412B30D /* Pods-BytesMeter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BytesMeter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3AD577712E1C4CD4F33E1100AE4761B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		425419B0801CAEE80E31E25D8F441795 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		54B9D1E895E24F6D4184F0E5F18EF2DE /* Pods-BytesMeter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BytesMeter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		59FE8911E97FD01E6BE38C46B704B0E0 /* Pods-BytesMeter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BytesMeter_Tests.modulemap"; sourceTree = "<group>"; };
+		64A7CC87DA0490B049463B51E0414B1B /* BytesMeter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BytesMeter-umbrella.h"; sourceTree = "<group>"; };
+		659D5EC3C5530FB4E9E5A6BA8F1FF477 /* Pods-BytesMeter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BytesMeter_Tests-Info.plist"; sourceTree = "<group>"; };
+		6A700C287EC76F1951B183CC885391B3 /* BytesMeter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BytesMeter-Info.plist"; sourceTree = "<group>"; };
+		73BEEF431045AB9346DD7A080E892D21 /* Pods-BytesMeter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BytesMeter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		75368445B85549031EAE890CB18834B8 /* Pods-BytesMeter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BytesMeter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		770DF4722AA29223CA2C894DE6C8FFA9 /* Pods_BytesMeter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BytesMeter_Example.framework; path = "Pods-BytesMeter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E19A7BE365BEF3368B5C74301B9D435 /* BytesMeter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BytesMeter-prefix.pch"; sourceTree = "<group>"; };
+		995F27595719797BD02F183600E1E7AD /* BytesMeter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BytesMeter.framework; path = BytesMeter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A015EBDB15893F2C65C1937FF044D1D1 /* Pods_BytesMeter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BytesMeter_Tests.framework; path = "Pods-BytesMeter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B338DCE28CC3361CAC1C523C2E5729 /* Pods-BytesMeter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BytesMeter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A7CF476357B2A3584D59DA1BA5E7046F /* Pods-BytesMeter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BytesMeter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B2A9FBE7C639EBBEE892F2A3DB21A202 /* Pods-BytesMeter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BytesMeter_Example-dummy.m"; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C3CD906A98222F997F0EC45B24EACAC6 /* Pods-BytesMeter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BytesMeter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C880DCC3DD04520EB52BC0E3C00A9FEF /* Pods-BytesMeter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BytesMeter_Example-Info.plist"; sourceTree = "<group>"; };
+		D15DCA16EF2B60EDFAA87F6136A5B0BA /* Pods-BytesMeter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BytesMeter_Tests-dummy.m"; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F037D91FA2811AEC1D9DA571C5CE673F /* BytesMeter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BytesMeter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F3743238E5E403FAF4457D9BBAC14B67 /* Pods-BytesMeter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BytesMeter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		116B2B87E476A9C45BF7901D1A2D8A5E /* Frameworks */ = {
+		95529EBB4939ABCA350F89BF8A1366BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FAA7AF9EAFF78E928EC02222034EDEE /* Foundation.framework in Frameworks */,
+				0CEB2275D836496BC8E216E599E18AAE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		311DF7E8EACC26BBA42ED6BBFF3BEE0E /* Frameworks */ = {
+		9CCBE5993AF53F33DCB232EC45707BE6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9DE66487E418C18D88E303DE2EB592C /* Foundation.framework in Frameworks */,
+				C2150F442C7E8902FA69DB438B187F6C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52F46060293BB28DC732447609859D0A /* Frameworks */ = {
+		FAE7F4FF94EC3B895AEFC291B90BD3C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99847D39E7CCC4D3D69988D2F07229AC /* Foundation.framework in Frameworks */,
+				1AFB79005EB3BEAE87C1CD9AD702AEA1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03881B0F2CC71A5BC524F07D127974C7 /* Support Files */ = {
+		22C2A6881D2B9357747FD9981F9BB1C8 /* Pods-BytesMeter_Example */ = {
 			isa = PBXGroup;
 			children = (
-				240ED6195C831F2B16CF08102CFCCD39 /* BytesMeter.modulemap */,
-				1328F6B8506EC2C9E8AEBAFDFC9445D8 /* BytesMeter.xcconfig */,
-				B8BEF561D888B1B387BF615387424C3F /* BytesMeter-dummy.m */,
-				C79C9CCDD3F8C57BB4C8E3032B5BF852 /* BytesMeter-prefix.pch */,
-				364C445898C06A02EC87DB1FA84D2CDA /* BytesMeter-umbrella.h */,
-				6CA70C788589B9FDC16E1B66B5A5135E /* Info.plist */,
+				00CBD40B4C52DAC89DF8E4E4B64686FD /* Pods-BytesMeter_Example.modulemap */,
+				C3CD906A98222F997F0EC45B24EACAC6 /* Pods-BytesMeter_Example-acknowledgements.markdown */,
+				F3743238E5E403FAF4457D9BBAC14B67 /* Pods-BytesMeter_Example-acknowledgements.plist */,
+				B2A9FBE7C639EBBEE892F2A3DB21A202 /* Pods-BytesMeter_Example-dummy.m */,
+				102259DD1E1AFF4A27D50B8770274A3C /* Pods-BytesMeter_Example-frameworks.sh */,
+				C880DCC3DD04520EB52BC0E3C00A9FEF /* Pods-BytesMeter_Example-Info.plist */,
+				0DBC20509171DE94800148AF2FDDB84C /* Pods-BytesMeter_Example-umbrella.h */,
+				54B9D1E895E24F6D4184F0E5F18EF2DE /* Pods-BytesMeter_Example.debug.xcconfig */,
+				73BEEF431045AB9346DD7A080E892D21 /* Pods-BytesMeter_Example.release.xcconfig */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BytesMeter";
+			name = "Pods-BytesMeter_Example";
+			path = "Target Support Files/Pods-BytesMeter_Example";
 			sourceTree = "<group>";
 		};
 		2963369EC22E72763116C81D6A32B33F /* Products */ = {
@@ -116,184 +126,158 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		397E2F90E1EB7469CDD4DB1CA29353FA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				D342047A84C5CECEA942F6CB826E30EA /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				2963369EC22E72763116C81D6A32B33F /* Products */,
-				A57F2BE67E93A3568AF83035C2EC574A /* Targets Support Files */,
+				0130F0B42C0766E88C1118B999AAA5DB /* BytesMeter.modulemap */,
+				02EA50BE6704AA59A2832B6C9983EFE9 /* BytesMeter.xcconfig */,
+				0F11ABD777FABDB6D121874E733AC6CE /* BytesMeter-dummy.m */,
+				6A700C287EC76F1951B183CC885391B3 /* BytesMeter-Info.plist */,
+				8E19A7BE365BEF3368B5C74301B9D435 /* BytesMeter-prefix.pch */,
+				64A7CC87DA0490B049463B51E0414B1B /* BytesMeter-umbrella.h */,
 			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BytesMeter";
 			sourceTree = "<group>";
 		};
-		82CF3BEA4EC7E09C1E5F613A99263F86 /* BytesMeter */ = {
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C7B55EB9EB219D28A6994B34E21B806B /* BytesMeter */,
-				03881B0F2CC71A5BC524F07D127974C7 /* Support Files */,
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		56EE32744A5324AC01D3F3A888BD14A8 /* BytesMeter */ = {
+			isa = PBXGroup;
+			children = (
+				1812F846030AC915247A61260236AF80 /* BytesMeter.swift */,
+				A740F3320CBA6D530AACB4A9AEB499BE /* Pod */,
+				397E2F90E1EB7469CDD4DB1CA29353FA /* Support Files */,
 			);
 			name = BytesMeter;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		8457169A7E6C172F695B01F6CF45D513 /* Pods-BytesMeter_Tests */ = {
+		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				4BE3EEF957D0F678C02311A18EE1ECA2 /* Info.plist */,
-				26179B5D15C66A65BCD325064C45F5E2 /* Pods-BytesMeter_Tests.modulemap */,
-				C45983768FFD63D89B1F0E238F42978B /* Pods-BytesMeter_Tests-acknowledgements.markdown */,
-				0DCD91C09DC242F19FECD397D812627C /* Pods-BytesMeter_Tests-acknowledgements.plist */,
-				9B5EC903AE544C7F48A83498F94A2914 /* Pods-BytesMeter_Tests-dummy.m */,
-				5E103F73705619B8D1CB3B36328727DF /* Pods-BytesMeter_Tests-frameworks.sh */,
-				74730672D1D5562B699A546668A49235 /* Pods-BytesMeter_Tests-resources.sh */,
-				9FBCCD12989B5682BD8EA8F4593440C5 /* Pods-BytesMeter_Tests-umbrella.h */,
-				6FB9F1E0D1B095B77DE5D05FD79C5FF3 /* Pods-BytesMeter_Tests.debug.xcconfig */,
-				0F4F72E0C1E695B9F9448C94F19D5BEE /* Pods-BytesMeter_Tests.release.xcconfig */,
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				D9359FD629E431E2537A58C56D85EAE1 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2963369EC22E72763116C81D6A32B33F /* Products */,
+				ECBD80B732F280B73B8BF5F7417B04CA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		86AECE6F76392B7960D75DA2599CC9C7 /* Pods-BytesMeter_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				59FE8911E97FD01E6BE38C46B704B0E0 /* Pods-BytesMeter_Tests.modulemap */,
+				38606FB786BA448609B88C729412B30D /* Pods-BytesMeter_Tests-acknowledgements.markdown */,
+				A6B338DCE28CC3361CAC1C523C2E5729 /* Pods-BytesMeter_Tests-acknowledgements.plist */,
+				D15DCA16EF2B60EDFAA87F6136A5B0BA /* Pods-BytesMeter_Tests-dummy.m */,
+				659D5EC3C5530FB4E9E5A6BA8F1FF477 /* Pods-BytesMeter_Tests-Info.plist */,
+				1E39E247691BBBDA298AFABF6679A88D /* Pods-BytesMeter_Tests-umbrella.h */,
+				75368445B85549031EAE890CB18834B8 /* Pods-BytesMeter_Tests.debug.xcconfig */,
+				A7CF476357B2A3584D59DA1BA5E7046F /* Pods-BytesMeter_Tests.release.xcconfig */,
 			);
 			name = "Pods-BytesMeter_Tests";
 			path = "Target Support Files/Pods-BytesMeter_Tests";
 			sourceTree = "<group>";
 		};
-		A57F2BE67E93A3568AF83035C2EC574A /* Targets Support Files */ = {
+		A740F3320CBA6D530AACB4A9AEB499BE /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				FC9DBC49FAA62979925E845689D70950 /* Pods-BytesMeter_Example */,
-				8457169A7E6C172F695B01F6CF45D513 /* Pods-BytesMeter_Tests */,
+				F037D91FA2811AEC1D9DA571C5CE673F /* BytesMeter.podspec */,
+				425419B0801CAEE80E31E25D8F441795 /* LICENSE */,
+				3AD577712E1C4CD4F33E1100AE4761B8 /* README.md */,
 			);
-			name = "Targets Support Files";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				44D5347904CF754D6785B84253F2574A /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C7B55EB9EB219D28A6994B34E21B806B /* BytesMeter */ = {
+		D9359FD629E431E2537A58C56D85EAE1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E75CEFAEDC34D3CE2BE737228A1AFFD2 /* Classes */,
-			);
-			path = BytesMeter;
-			sourceTree = "<group>";
-		};
-		D342047A84C5CECEA942F6CB826E30EA /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				82CF3BEA4EC7E09C1E5F613A99263F86 /* BytesMeter */,
+				56EE32744A5324AC01D3F3A888BD14A8 /* BytesMeter */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		ECBD80B732F280B73B8BF5F7417B04CA /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				22C2A6881D2B9357747FD9981F9BB1C8 /* Pods-BytesMeter_Example */,
+				86AECE6F76392B7960D75DA2599CC9C7 /* Pods-BytesMeter_Tests */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		E75CEFAEDC34D3CE2BE737228A1AFFD2 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				D34C81511EE159D900FEA471 /* BytesMeter.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		FC9DBC49FAA62979925E845689D70950 /* Pods-BytesMeter_Example */ = {
-			isa = PBXGroup;
-			children = (
-				79EB9108DECA4636FB73852441E196E0 /* Info.plist */,
-				1B40BFD2CE35285475F1E030755BEC30 /* Pods-BytesMeter_Example.modulemap */,
-				5452912A37E24FE2965412B613711A97 /* Pods-BytesMeter_Example-acknowledgements.markdown */,
-				BB72E8E3365E2E839929139C4C9AFAA6 /* Pods-BytesMeter_Example-acknowledgements.plist */,
-				83144B12CF67A76D7417E00684DB0D80 /* Pods-BytesMeter_Example-dummy.m */,
-				4B880AD13319D0FD8D39A41BD1CA8C52 /* Pods-BytesMeter_Example-frameworks.sh */,
-				F13AD38D869100685A670B7D28F4B596 /* Pods-BytesMeter_Example-resources.sh */,
-				FB478A1E1A8BCDDFDE1CBC04AD3B3430 /* Pods-BytesMeter_Example-umbrella.h */,
-				51E5C90254B2ADFC2E5C52D25AC394A9 /* Pods-BytesMeter_Example.debug.xcconfig */,
-				BDD96126114FEFFCCA6BF40B5FB39BD5 /* Pods-BytesMeter_Example.release.xcconfig */,
-			);
-			name = "Pods-BytesMeter_Example";
-			path = "Target Support Files/Pods-BytesMeter_Example";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		314A3273C9C09FA3E3717CA50367C50A /* Headers */ = {
+		15FB410E2055FAE2712D1B61964F5713 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				049E70F99DBA1040024AC567459341CF /* Pods-BytesMeter_Tests-umbrella.h in Headers */,
+				06AA429DDE44EF597D65CAC8B2C7E271 /* Pods-BytesMeter_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		854D9F67068A26A412858EF2390208EE /* Headers */ = {
+		755C1A12F7FA4ED18BC514D87DDBEFBD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EE522D78D3A0284AA7EC079CC97813A /* Pods-BytesMeter_Example-umbrella.h in Headers */,
+				05AF70FC2AACC6ADF07C38CA209AA75B /* BytesMeter-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBA569946D230109AA4F5D6B0CEB5373 /* Headers */ = {
+		BBD53C809065B010A6624CA4C47BD05E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBBC3D014966C85DE12B634F4EA90EF9 /* BytesMeter-umbrella.h in Headers */,
+				CB7D8D4F94126AEE297740685F35AC3A /* Pods-BytesMeter_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		70C15C98F611CC41BD030ABA61C37A02 /* Pods-BytesMeter_Example */ = {
+		43EAF0D359239B9AFB5D96C686C8EE53 /* Pods-BytesMeter_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB1DF8A7AAB54B3C931A4CE713D83548 /* Build configuration list for PBXNativeTarget "Pods-BytesMeter_Example" */;
+			buildConfigurationList = 77D8DE50C2200816BA4710CA4E58F166 /* Build configuration list for PBXNativeTarget "Pods-BytesMeter_Example" */;
 			buildPhases = (
-				D390C8072FFCA5F2F15150E49E59E729 /* Sources */,
-				52F46060293BB28DC732447609859D0A /* Frameworks */,
-				854D9F67068A26A412858EF2390208EE /* Headers */,
+				15FB410E2055FAE2712D1B61964F5713 /* Headers */,
+				C218C40AFC7B5AD85EF74A198265A930 /* Sources */,
+				9CCBE5993AF53F33DCB232EC45707BE6 /* Frameworks */,
+				D87897B0E328172860730DF8DDC1DF40 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3341D2EFE16F123D027A10EDA5C516D1 /* PBXTargetDependency */,
+				825188DAC237DFF473355F1EC4D82C88 /* PBXTargetDependency */,
 			);
 			name = "Pods-BytesMeter_Example";
 			productName = "Pods-BytesMeter_Example";
 			productReference = 770DF4722AA29223CA2C894DE6C8FFA9 /* Pods_BytesMeter_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		929F15FAF1C51BA2C65827AE2BB6DD3C /* Pods-BytesMeter_Tests */ = {
+		469148CAE1D59CEC01E0CC8F3F5A63E2 /* BytesMeter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C17506E3BE32C485F09E1E5EC04DF3A3 /* Build configuration list for PBXNativeTarget "Pods-BytesMeter_Tests" */;
+			buildConfigurationList = 387020D3AD5E0953435491281AA74B86 /* Build configuration list for PBXNativeTarget "BytesMeter" */;
 			buildPhases = (
-				5875481A97A18BA4B0A2CA54B8325FCB /* Sources */,
-				311DF7E8EACC26BBA42ED6BBFF3BEE0E /* Frameworks */,
-				314A3273C9C09FA3E3717CA50367C50A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-BytesMeter_Tests";
-			productName = "Pods-BytesMeter_Tests";
-			productReference = A015EBDB15893F2C65C1937FF044D1D1 /* Pods_BytesMeter_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CBD1BA5E2F05CD978D88E7C7AFFA51C9 /* BytesMeter */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 76294C9637765DA39A92B1269CD51314 /* Build configuration list for PBXNativeTarget "BytesMeter" */;
-			buildPhases = (
-				8080451056CAA4866033E998EE599B8C /* Sources */,
-				116B2B87E476A9C45BF7901D1A2D8A5E /* Frameworks */,
-				EBA569946D230109AA4F5D6B0CEB5373 /* Headers */,
+				755C1A12F7FA4ED18BC514D87DDBEFBD /* Headers */,
+				5A847B83D0A56F6AF678149EB5A89C16 /* Sources */,
+				95529EBB4939ABCA350F89BF8A1366BB /* Frameworks */,
+				5BC1D10B118613935DD8CB65236B8524 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -304,19 +288,33 @@
 			productReference = 995F27595719797BD02F183600E1E7AD /* BytesMeter.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		4F1085094045C0226688457F9EB21B1A /* Pods-BytesMeter_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7FB4E59B33E708F387E87311FAC7486 /* Build configuration list for PBXNativeTarget "Pods-BytesMeter_Tests" */;
+			buildPhases = (
+				BBD53C809065B010A6624CA4C47BD05E /* Headers */,
+				62034636A430A3E063BB62E9B3431C0A /* Sources */,
+				FAE7F4FF94EC3B895AEFC291B90BD3C2 /* Frameworks */,
+				FD6EC6E42490CBE247BCEED65D7CE45F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADDFA1F0CFC06544826C87D0F7A17322 /* PBXTargetDependency */,
+			);
+			name = "Pods-BytesMeter_Tests";
+			productName = "Pods-BytesMeter_Tests";
+			productReference = A015EBDB15893F2C65C1937FF044D1D1 /* Pods_BytesMeter_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					CBD1BA5E2F05CD978D88E7C7AFFA51C9 = {
-						LastSwiftMigration = 0830;
-					};
-				};
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -330,355 +328,394 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CBD1BA5E2F05CD978D88E7C7AFFA51C9 /* BytesMeter */,
-				70C15C98F611CC41BD030ABA61C37A02 /* Pods-BytesMeter_Example */,
-				929F15FAF1C51BA2C65827AE2BB6DD3C /* Pods-BytesMeter_Tests */,
+				469148CAE1D59CEC01E0CC8F3F5A63E2 /* BytesMeter */,
+				43EAF0D359239B9AFB5D96C686C8EE53 /* Pods-BytesMeter_Example */,
+				4F1085094045C0226688457F9EB21B1A /* Pods-BytesMeter_Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		5BC1D10B118613935DD8CB65236B8524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D87897B0E328172860730DF8DDC1DF40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6EC6E42490CBE247BCEED65D7CE45F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		5875481A97A18BA4B0A2CA54B8325FCB /* Sources */ = {
+		5A847B83D0A56F6AF678149EB5A89C16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54CC110E864BC3995BEDAAFA514CB509 /* Pods-BytesMeter_Tests-dummy.m in Sources */,
+				C8420548396A65EAD47E98F3CCBE1243 /* BytesMeter-dummy.m in Sources */,
+				A81BBB2C0D3EF18D3AE32D051F8A263E /* BytesMeter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8080451056CAA4866033E998EE599B8C /* Sources */ = {
+		62034636A430A3E063BB62E9B3431C0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0455AEEC3CF1F23EFE31800311C14662 /* BytesMeter-dummy.m in Sources */,
-				D34C81521EE159D900FEA471 /* BytesMeter.swift in Sources */,
+				7CA24F87F4BB49D72AA6EC3059794918 /* Pods-BytesMeter_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D390C8072FFCA5F2F15150E49E59E729 /* Sources */ = {
+		C218C40AFC7B5AD85EF74A198265A930 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7593CAB399F36D4E50BA563BBD828EC3 /* Pods-BytesMeter_Example-dummy.m in Sources */,
+				F0FA170A27E993BD4479747C7BDF9B9E /* Pods-BytesMeter_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3341D2EFE16F123D027A10EDA5C516D1 /* PBXTargetDependency */ = {
+		825188DAC237DFF473355F1EC4D82C88 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BytesMeter;
-			target = CBD1BA5E2F05CD978D88E7C7AFFA51C9 /* BytesMeter */;
-			targetProxy = 7247A2E521905950E9619F0F33A90A15 /* PBXContainerItemProxy */;
+			target = 469148CAE1D59CEC01E0CC8F3F5A63E2 /* BytesMeter */;
+			targetProxy = D96EC20055298F5352E7769783ADC2C0 /* PBXContainerItemProxy */;
+		};
+		ADDFA1F0CFC06544826C87D0F7A17322 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BytesMeter_Example";
+			target = 43EAF0D359239B9AFB5D96C686C8EE53 /* Pods-BytesMeter_Example */;
+			targetProxy = 72666826A789FA97EE2B3B666FB43692 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		07DE5DBDEBC65D47D2E846CBD571E928 /* Debug */ = {
+		1547DA524EBFAD80BBE59F8A49BE63F3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1328F6B8506EC2C9E8AEBAFDFC9445D8 /* BytesMeter.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		308EBCBC247FF78883F970BA3C486B7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02EA50BE6704AA59A2832B6C9983EFE9 /* BytesMeter.xcconfig */;
+			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/BytesMeter/BytesMeter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BytesMeter/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/BytesMeter/BytesMeter-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/BytesMeter/BytesMeter.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_MODULE_NAME = BytesMeter;
 				PRODUCT_NAME = BytesMeter;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		1D62ACB457977CC49900999D9BB81BCC /* Release */ = {
+		5F5EF6E583CE8A3ED0F76659697FD6D0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDD96126114FEFFCCA6BF40B5FB39BD5 /* Pods-BytesMeter_Example.release.xcconfig */;
+			baseConfigurationReference = A7CF476357B2A3584D59DA1BA5E7046F /* Pods-BytesMeter_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-BytesMeter_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-BytesMeter_Tests/Pods-BytesMeter_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BytesMeter_Example/Pods-BytesMeter_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MODULEMAP_FILE = "Target Support Files/Pods-BytesMeter_Tests/Pods-BytesMeter_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_BytesMeter_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+		7FC6D1096004F77B2106F28BA12882CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54B9D1E895E24F6D4184F0E5F18EF2DE /* Pods-BytesMeter_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BytesMeter_Example/Pods-BytesMeter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BytesMeter_Example/Pods-BytesMeter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		95C88F0FB2CDB5FBEB2C48C560DF43F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73BEEF431045AB9346DD7A080E892D21 /* Pods-BytesMeter_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BytesMeter_Example/Pods-BytesMeter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BytesMeter_Example/Pods-BytesMeter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A3EB25F4025C917380964E3F08A56321 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		6F13AE928520740DA9EA04783ABAB54D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F4F72E0C1E695B9F9448C94F19D5BEE /* Pods-BytesMeter_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-BytesMeter_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BytesMeter_Tests/Pods-BytesMeter_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_BytesMeter_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		705B5BA2D4E0804EA756FAA9436CB6C0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51E5C90254B2ADFC2E5C52D25AC394A9 /* Pods-BytesMeter_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-BytesMeter_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BytesMeter_Example/Pods-BytesMeter_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_BytesMeter_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+		A537E875AB61EDB258DE74CD420EA92F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02EA50BE6704AA59A2832B6C9983EFE9 /* BytesMeter.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		DFD22E13F7F1F9A617B5541E38A943EE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1328F6B8506EC2C9E8AEBAFDFC9445D8 /* BytesMeter.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/BytesMeter/BytesMeter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BytesMeter/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/BytesMeter/BytesMeter-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/BytesMeter/BytesMeter.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_MODULE_NAME = BytesMeter;
 				PRODUCT_NAME = BytesMeter;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		F3730C0AA9F1CCDC511508C10547E1DE /* Debug */ = {
+		CB9F428DF0F26F667B2EC6ED7E4728F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FB9F1E0D1B095B77DE5D05FD79C5FF3 /* Pods-BytesMeter_Tests.debug.xcconfig */;
+			baseConfigurationReference = 75368445B85549031EAE890CB18834B8 /* Pods-BytesMeter_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-BytesMeter_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-BytesMeter_Tests/Pods-BytesMeter_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-BytesMeter_Tests/Pods-BytesMeter_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_BytesMeter_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -693,35 +730,35 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
-				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+				A3EB25F4025C917380964E3F08A56321 /* Debug */,
+				1547DA524EBFAD80BBE59F8A49BE63F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		76294C9637765DA39A92B1269CD51314 /* Build configuration list for PBXNativeTarget "BytesMeter" */ = {
+		387020D3AD5E0953435491281AA74B86 /* Build configuration list for PBXNativeTarget "BytesMeter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				07DE5DBDEBC65D47D2E846CBD571E928 /* Debug */,
-				DFD22E13F7F1F9A617B5541E38A943EE /* Release */,
+				308EBCBC247FF78883F970BA3C486B7D /* Debug */,
+				A537E875AB61EDB258DE74CD420EA92F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C17506E3BE32C485F09E1E5EC04DF3A3 /* Build configuration list for PBXNativeTarget "Pods-BytesMeter_Tests" */ = {
+		77D8DE50C2200816BA4710CA4E58F166 /* Build configuration list for PBXNativeTarget "Pods-BytesMeter_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3730C0AA9F1CCDC511508C10547E1DE /* Debug */,
-				6F13AE928520740DA9EA04783ABAB54D /* Release */,
+				7FC6D1096004F77B2106F28BA12882CA /* Debug */,
+				95C88F0FB2CDB5FBEB2C48C560DF43F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB1DF8A7AAB54B3C931A4CE713D83548 /* Build configuration list for PBXNativeTarget "Pods-BytesMeter_Example" */ = {
+		B7FB4E59B33E708F387E87311FAC7486 /* Build configuration list for PBXNativeTarget "Pods-BytesMeter_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				705B5BA2D4E0804EA756FAA9436CB6C0 /* Debug */,
-				1D62ACB457977CC49900999D9BB81BCC /* Release */,
+				CB9F428DF0F26F667B2EC6ED7E4728F0 /* Debug */,
+				5F5EF6E583CE8A3ED0F76659697FD6D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
